@@ -38,8 +38,6 @@ jobs:
           # Job ID
           job_id: 5f9306a4f9c74e67736097ce
           # Variables
-          variables:
-            message: "Hello from GitHub!!!"
-            debug: true
+          variables: '{ "message": "Hello from GitHub!!!", "debug": true }'
           # Refactr API base URL
           #api_url: # optional
