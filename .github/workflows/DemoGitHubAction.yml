@@ -43,6 +43,6 @@ jobs:
           variables: '{ "message": "Hello from GitHub!!!", "debug": true }'
           # Refactr API base URL
           #api_url: # optional
-            
+                  
       - name: Show Refactr Job Output Property
-        run: echo ${{ steps.refactr_job.outputs.IPAddress }}
+        run: echo "Refactr Job Output = ${{ steps.refactr_job.outputs.* }}"
