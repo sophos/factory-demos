@@ -28,7 +28,7 @@ jobs:
       - uses: actions/checkout@v2
 
 
-      - name: Refactr | Speelman Sandbox | Speelman Git Test
+      - name: Refactr | Speelman Sandbox | Test GitHub Action
         # You may pin to the exact commit or the version.
         # uses: refactr/action-run-pipeline@b039f90de9de97a665e53c5969dc76012f349064
         uses: refactr/action-run-pipeline@v0.1.2
