@@ -27,7 +27,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Refactr Demos | GitHub Action
+      - name: Refactr Demos | GitHub Action | GitHub Action
         # You may pin to the exact commit or the version.
         # uses: refactr/action-run-pipeline@b039f90de9de97a665e53c5969dc76012f349064
         uses: refactr/action-run-pipeline@v0.1.2
@@ -40,22 +40,5 @@ jobs:
           job_id: 5f9306a4f9c74e67736097ce
           # Variables
           variables: '{ "message": "Hello from GitHub!!!", "debug": true }'
-          # Refactr API base URL
-          #api_url: # optional
-
-
-      - name: Refactr | Speelman Sandbox | Speelman Git Test
-        # You may pin to the exact commit or the version.
-        # uses: refactr/action-run-pipeline@b039f90de9de97a665e53c5969dc76012f349064
-        uses: refactr/action-run-pipeline@v0.1.2
-        with:
-          # API token
-          api_token: '${{ secrets.RYANMYFIRSTTOKEN }}'
-          # Project ID
-          project_id: 5ee400ee6a31cf8bd75eef73
-          # Job ID
-          job_id: 5f96f91ef9c74e6c2660e719
-          # Variables
-          variables: '{ "gitrepo": "https://github.com/refactr/runner-utils.git", "image": "ami-066df92ac6f03efca", "githubBranch": "${{ github.head_ref }}" }'
           # Refactr API base URL
           #api_url: # optional
