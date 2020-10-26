@@ -45,4 +45,4 @@ jobs:
           #api_url: # optional
                   
       - name: Show Refactr Job Output Property
-        run: echo "Refactr Job Output = ${{ steps.refactr_job.outputs.* }}"
+        run: echo ${{ steps.refactr_job.outputs.* }}
