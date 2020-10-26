@@ -51,6 +51,6 @@ jobs:
           # Job ID
           job_id: 5f96f91ef9c74e6c2660e719
           # Variables
-          variables: '{ "gitrepo": "https://github.com/refactr/runner-utils.git", "image": "ami-066df92ac6f03efca", "githubBranch": "github.head_ref" }'
+          variables: '{ "gitrepo": "https://github.com/refactr/runner-utils.git", "image": "ami-066df92ac6f03efca", "githubBranch": "${{ github.head_ref }}" }'
           # Refactr API base URL
           #api_url: # optional
