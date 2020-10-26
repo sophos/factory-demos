@@ -45,4 +45,4 @@ jobs:
           #api_url: # optional
             
       - name: Show Refactr Job Output Property
-        run: echo steps.refactr_job.outputs.IPAddress
+        run: echo ${{ steps.refactr_job.outputs.IPAddress }}
