@@ -1,0 +1,40 @@
+{
+    "Vendor": "AWS",
+    "SophosProducts": 
+    [
+      "Factory",
+      "Security Operations"
+    ],
+    "PartnerTechnology": 
+    [
+      "Cloud"
+    ],
+    "Resources":
+    {
+      "PDF": "https://wiki.socos.io/en/onboarding/integration",
+      "Video": "https://www.sophos.com/en-us/integrations/integration-partners",
+      "Web": "https://app.refactr.it/login"
+    },
+    "Description": "Some Description Here",
+    "Products":
+    [
+      {
+        "Name": "GuardDuty",
+        "Resources":
+        {
+          "PDF": "https://aws.amazon.com/",
+          "Video": "https://aws.amazon.com/",
+          "Web": "https://aws.amazon.com/"
+        }
+      },
+      {
+          "Name": "Amazon Inspector",
+          "Resources":
+          {
+            "PDF": "https://aws.amazon.com/",
+            "Video": "https://aws.amazon.com/",
+            "Web": "https://aws.amazon.com/"
+          }
+        }
+    ]
+  }

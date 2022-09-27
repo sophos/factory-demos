@@ -1,0 +1,39 @@
+{
+    "Vendor": "AquaSec",
+    "SophosProducts": 
+    [
+      "Factory"
+    ],
+    "PartnerTechnology": 
+    [
+      "Cloud"
+    ],
+    "Resources":
+    {
+      "PDF": "https://www.aquasec.com/",
+      "Video": "https://www.aquasec.com/",
+      "Web": "https://www.aquasec.com/"
+    },
+    "Description": "Some Description Here",
+    "Products":
+    [
+      {
+        "Name": "kube-bench",
+        "Resources":
+        {
+          "PDF": "https://www.aquasec.com/",
+          "Video": "https://www.aquasec.com/",
+          "Web": "https://www.aquasec.com/"
+        }
+      },
+      {
+          "Name": "Trivy",
+          "Resources":
+          {
+            "PDF": "https://www.aquasec.com/",
+            "Video": "https://www.aquasec.com/",
+            "Web": "https://www.aquasec.com/"
+          }
+        }
+    ]
+  }
