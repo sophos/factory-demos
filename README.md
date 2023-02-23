@@ -1,2 +1,3 @@
-# refactr-demos
-Used in Refactr Platform Pipeline demos and tutorials
+# Factory Demos
+
+Resources for Factory demos and tutorials.
